@@ -1,0 +1,113 @@
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1219px;
+  padding: 0 55px;
+  margin: 0 auto;
+  display: flex; /* Flexbox для выравнивания логотипа и кнопок */
+  align-items: center; /* Центрирует элементы по вертикали */
+  justify-content: space-between; /* Раздвигает элементы на максимум */
+}
+
+.background-wrap {
+  background-color: #f0f0f0; /* Цвет фона */
+}
+
+header {
+  background-color: #007765;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+}
+
+.nav-btn {
+  position: relative;
+  top: 0;
+  right: 0;
+  padding: 15px;
+}
+
+.nav-btn a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  border-right: 1px solid #fff;
+  padding-right: 5px;
+}
+
+.hero-1 {
+  background-image: url(../img/Jumbotron.png);
+}
+
+.hero-1,
+.hero-2 {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 72px;
+}
+
+.content {
+  max-width: 1219px;
+  padding: 0 55px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.cont-title {
+  color: #007765;
+  font-size: 64px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.section-text {
+  color: #000;
+  font-size: 32px;
+  text-align: center;
+}
+
+.hero-2 {
+  background-image: url(../img/hero.png);
+}
+
+.hero-text-2 {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  padding: 0 400px;
+}
+
+.logo-text {
+  display: flex; /* Включаем Flexbox */
+  align-items: center; /* Выравниваем элементы по центру по вертикали */
+}
+
+.logo-text img {
+  margin-right: 10px; /* Отступ справа от изображения для разделения с текстом */
+}
+
+.the-team-img {
+  margin-top: 50px;
+  display: flex; /* Включаем Flexbox */
+  justify-content: center; /* Центрируем элементы по горизонтали */
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #333333;
+  text-align: center;
+  color: #fff;
+  padding: 55px;
+}
