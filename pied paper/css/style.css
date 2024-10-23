@@ -12,7 +12,8 @@ html {
 }
 
 .background-wrap {
-  background-color: #f0f0f0; /* Цвет фона */
+  background-color: #eeeeee; /* Цвет фона */
+  padding: 30px 0;
 }
 
 header {
@@ -109,5 +110,5 @@ footer {
   background-color: #333333;
   text-align: center;
   color: #fff;
-  padding: 55px;
+  padding: 20px;
 }
